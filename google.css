@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: auto;
+    /* background-color: red; */
+}
+/* *********************HEADER******************* */
+.head {
+    /* background-color: blue; */
+    /* padding-left: 1200px; */
+    padding-top: 20px;
+    height: 20px;
+    margin: 0 20px;
+    justify-content: space-evenly;
+    font-family: Arial, sans-serif;
+    color: #5f6368;
+    font-size: 15px;
+}
+/* SOL VE SAĞ LİNKLER */
+.box-right {
+    float: right;
+    padding-left: 10px;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+.box-right:hover {
+    text-decoration: underline;
+}
+.box-left {
+    float: left;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.box-left:hover {
+    text-decoration: underline;
+}
+#grid:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+.blue {
+    padding: 8px 15px;   
+    background-color: #1a73e8;
+    border-radius: 3px;
+    margin-left: 12px;
+    color: #f2f2f2;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.blue:hover {
+    background-color: #4285f4;
+    border: 0 solid #4285f4;
+    text-decoration: none;
+}
+.tt {
+    padding-top: 7px;
+}
+.content {
+    text-align: center;
+    margin-top: 90px;
+}
+/* *****************ARAMA KISMI *********************** */
+.cc {
+    width: 550px;
+    height: 23px;
+    padding: 10px 0;
+    padding-left: 45px;
+    margin: 25px 0;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+}
+.cc:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+.mc {
+    color:#9aa0a6;
+    position: absolute;
+    top: 262px;
+    right: 490px;
+    width: 26px;
+}
+.mc:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.src {
+    color:#9aa0a6;
+    position: absolute;
+    top: 264px;
+    right: 1028px;
+}
+
+/* *************************BUTONLAR******************* */
+.ctr {
+    padding-top: 5px;
+}
+.btn {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    margin: 12px 5px;
+    padding: 0 16px;
+    height: 36px;
+    line-height: 25px;
+    color: #5f6368;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    cursor: pointer;
+    height: 36px;
+}
+.btn:hover {
+    border: 1px solid #aaa;
+    /* box-shadow: 1px 1px px grey; */
+}
+/* ***************************FOOTER************************* */
+.footer {
+    /* background-color: blue; */
+    /* padding-left: 1200px; */
+    padding: 20px 20px;
+    height: 20px;
+    margin: 280px 0px 0px 0px;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0px;
+}
+.dd {
+    float: left;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.dd:hover {
+    text-decoration: underline;
+}
